@@ -1,0 +1,22 @@
+{
+  "name": "ejemplos-promesas",
+  "version": "1.0.0",
+  "description": "Ejemplos de Promesas en JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romelperez/ejemplos-promesas.git"
+  },
+  "keywords": [
+    "promises"
+  ],
+  "author": "Romel Pérez (romelperez.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romelperez/ejemplos-promesas/issues"
+  },
+  "homepage": "https://github.com/romelperez/ejemplos-promesas#readme",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "jquery": "^2.1.4"
+  }
+}
