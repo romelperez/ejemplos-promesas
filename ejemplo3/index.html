@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Promesas en el navegador con Bluebird</title>
+    <style>
+      body {
+        margin: 20px;
+        font: normal normal 1rem/1.5 sans-serif;
+        color: #444;
+      }
+      b {
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Promesas en el navegador con Bluebird</h1>
+      <p>Cargar un usuario aleatorio desde la API de <a href="https://github.com">GitHub</a>
+      y mostrar su nombre de usuario y avatar.</p>
+      <p>
+        <button id="load">Load another</button>
+      </p>
+      <div id="container"></div>
+    </main>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bluebird/js/browser/bluebird.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
